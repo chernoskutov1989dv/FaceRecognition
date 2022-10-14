@@ -55,7 +55,7 @@ while True:
         top *= 4
         right *= 4
         bottom *= 4
-        left *= 4
+        left *= 5
 
         cv2.rectangle(frame, (left, top), (right, bottom), (0, 0, 255), 2)
         cv2.rectangle(frame, (left, bottom - 35), (right, bottom), (0, 0, 255), cv2.FILLED)
